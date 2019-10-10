@@ -1,0 +1,40 @@
+.grid-container {
+    grid-template-areas:
+      'item1'
+      'item2'
+      'item3'
+      'item4'
+      'item3';
+    background-color: red;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10px;
+}
+.grid-container > div {
+    text-align: center;
+    padding: 5px ;
+    font-size: 30px;
+    
+    
+}
+  .item1 { grid-area: item1; }
+  .item2 { grid-area: item2; }
+  .item3 { grid-area: item3; }
+  .item4 { grid-area: item4; }
+
+#name{
+    background-color: white;
+    margin-left: -10px ;
+    margin-right: -10px ;}
+.white{
+    color: white;
+}
+  body{
+      background-color: gray;
+  }
+  
