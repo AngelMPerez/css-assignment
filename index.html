@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="index.css">
+<script src="/index.js"></script>
 <html>
     <head>
         <title>Homework</title>
     </head>
     <body>
+
+        <form class="center" onsubmit="clickHandler(event)" name="myForm" >
+            <input id="fname" type="text" name="fname" placeholder="Your Name">
+            <input type="submit">
+           <!-- <button> submit</button> -->
+        </form>
+
         <div class="grid-container shadow">
-                    <div class="item1 white"><h1>Hello</h1><h4>My name is</h4></div>  
+                    <div class="item1 white"><h2>Hello</h2><h4>My name is</h4></div>  
                     <!-- <div class="item2 shadows2" id="name"> </div>                     -->
-                    <div class="item3 " id="name"><h2>Angel</h2></div>                    
+                    <div class="item3 " id="name"><h1 id="insert"></h1></div>                    
                     <!-- <div class="item2 shadows2" id="name"> </div>                     -->
                     <div class="item4 "></div>
 
